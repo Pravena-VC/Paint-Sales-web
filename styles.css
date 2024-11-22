@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+#app {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#cart {
+    margin-top: 20px;
+}
+
+#cartItems {
+    list-style: none;
+    padding: 0;
+}
+
+.cartItem {
+    margin-bottom: 5px;
+}

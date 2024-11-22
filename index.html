@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Paint Sales App</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Paint Sales App</h1>
+        <label for="paintColor">Select Paint Color:</label>
+        <select id="paintColor">
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+        </select>
+        <label for="quantity">Enter Quantity:</label>
+        <input type="number" id="quantity" min="1" value="1">
+        <button onclick="addToCart()">Add to Cart</button>
+        <div id="cart">
+            <h2>Shopping Cart</h2>
+            <ul id="cartItems"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
